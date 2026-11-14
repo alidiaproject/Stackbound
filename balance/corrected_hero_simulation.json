@@ -1,0 +1,132 @@
+[
+  {
+    "mode": "single",
+    "size": 20,
+    "matches": 30,
+    "wins": [
+      14,
+      15
+    ],
+    "unresolved": 1,
+    "errors": 0,
+    "avgRoundsAll": 12.9,
+    "avgCompleted": 11.1,
+    "fastestCompleted": 3,
+    "longestCompleted": 22,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 1,
+        "round": 66,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 6,
+            "max": 6,
+            "board": 1,
+            "hand": 7,
+            "deck": 13,
+            "flip": 0,
+            "dead": 3,
+            "traps": 1
+          },
+          {
+            "hero": 4,
+            "max": 5,
+            "board": 0,
+            "hand": 4,
+            "deck": 2,
+            "flip": 3,
+            "dead": 10,
+            "traps": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "single",
+    "size": 30,
+    "matches": 30,
+    "wins": [
+      19,
+      11
+    ],
+    "unresolved": 0,
+    "errors": 0,
+    "avgRoundsAll": 14.5,
+    "avgCompleted": 14.47,
+    "fastestCompleted": 3,
+    "longestCompleted": 31,
+    "maxSteps": 255,
+    "stalled": []
+  },
+  {
+    "mode": "single",
+    "size": 40,
+    "matches": 30,
+    "wins": [
+      14,
+      16
+    ],
+    "unresolved": 0,
+    "errors": 0,
+    "avgRoundsAll": 20.6,
+    "avgCompleted": 20.63,
+    "fastestCompleted": 6,
+    "longestCompleted": 46,
+    "maxSteps": 329,
+    "stalled": []
+  },
+  {
+    "mode": "death",
+    "size": 20,
+    "matches": 30,
+    "wins": [
+      14,
+      16
+    ],
+    "unresolved": 0,
+    "errors": 0,
+    "avgRoundsAll": 12.1,
+    "avgCompleted": 12.07,
+    "fastestCompleted": 3,
+    "longestCompleted": 31,
+    "maxSteps": 192,
+    "stalled": []
+  },
+  {
+    "mode": "death",
+    "size": 30,
+    "matches": 30,
+    "wins": [
+      18,
+      12
+    ],
+    "unresolved": 0,
+    "errors": 0,
+    "avgRoundsAll": 13.7,
+    "avgCompleted": 13.7,
+    "fastestCompleted": 3,
+    "longestCompleted": 26,
+    "maxSteps": 207,
+    "stalled": []
+  },
+  {
+    "mode": "death",
+    "size": 40,
+    "matches": 30,
+    "wins": [
+      14,
+      16
+    ],
+    "unresolved": 0,
+    "errors": 0,
+    "avgRoundsAll": 20.2,
+    "avgCompleted": 20.23,
+    "fastestCompleted": 6,
+    "longestCompleted": 35,
+    "maxSteps": 269,
+    "stalled": []
+  }
+]

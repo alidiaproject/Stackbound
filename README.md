@@ -1,49 +1,34 @@
-# Stackbound — card game testing prototype
+# Stackbound v0.2 — Expanded Card & Simulation Prototype
 
-## Play locally
-Run a local web server in this folder (ES modules require HTTP, not file://):
+Open `index.html` through GitHub Pages or a local HTTP server. For GitHub Pages, upload **all files in this ZIP** to the repository root, enable Pages from Settings → Pages, and select `main` / root. Opening index.html via file:// may block ES modules.
 
-```bash
-python -m http.server 8000
-```
+## Contents
+- **151 card definitions:** 15 original common soldiers, 60 rarity variants, 15 numeric modifiers, 15 named attachments, 24 actions, 12 traps, and 10 environments.
+- Two combat modes, deterministic deck stacking, payment ordering, flip recycling, AI play, local play, optional Firebase room code, and Balance Lab.
+- `balance/simulation_v02.json`: 12,000 automated matches across deck sizes 20/30/40, combat modes, and two seeds.
+- `simulate.mjs`: reproducible simulation script (requires Node.js 20+). Run `node simulate.mjs`.
+- `test-engine.mjs`: smoke tests. Run `node test-engine.mjs`.
 
-Open http://localhost:8000 and select **Quick-start AI game** to play immediately. To experience the open, alternating draft, choose **New game**. You can test 20, 30 or 40 card decks and single-exchange or fight-to-death combat. The AI is a simple baseline heuristic, not a trained opponent.
+## Important prototype assumptions
+The 60 rarity variants use a **provisional** +1/+2/+3/+4 bonus to their archetype's favored stat, at the original card cost. They do not yet implement individually distinct special abilities. This is deliberately a stress-test mechanic, not a claim of balance. Cost is the number of **other** cards discarded to play a card. Some action buffs are represented as persistent attachments; traps trigger automatically rather than being player-timed reactions. The 15 original base soldier stat lines remain unchanged.
 
-## Deploy to GitHub Pages
-Commit the **contents** of this folder to your GitHub repository root (or a subfolder used as Pages root). In Settings > Pages, select Deploy from branch. The app works against AI without Firebase.
+The simulation AI is heuristic, not an optimal player. Its randomized decks are NOT legal competitive decklists yet because deck construction restrictions are not finalized. Win rates reflect that AI policy and randomized deck composition, not true card balance. Review the results before using rarity variants in competitive play.
 
-## Firebase multiplayer setup
-1. Create a Firebase project and register a Web app.
-2. Enable Authentication > Sign-in method > Anonymous.
-3. Create Cloud Firestore.
-4. In Firestore Rules, use the **testing-only** example in the app's Multiplayer tab. Do not use these permissive rules for public/competitive deployment.
-5. Host the app over HTTPS (e.g., GitHub Pages). Both players open it, paste the same Firebase config JSON, and click Connect.
-6. Host creates a room, shares the room ID, and guest joins. Alternating drafting and gameplay are synchronized via Firestore transactions.
+## Firebase
+Open Multiplayer and supply your own Firebase web config; enable Anonymous Auth and Firestore. Room data contains both players' hands and deck order. Firestore rules in the interface are only for trusted prototype testing and are **not secure for public competitive use**. Never store secret service-account keys in GitHub.
 
-Firebase config is intentionally NOT stored in the source code. The project uses the official Firebase CDN modules and doesn't need a build step. **Security limitation:** Firestore documents contain both hands and the entire deck; knowledgeable players can inspect them, and these demo rules do not validate legal moves. For a public release, use server-authoritative Cloud Functions, strict rules, per-player hidden data and validated transactions.
+## v0.3 correction — hero hit counters
+- Direct soldier attacks deal **exactly 1 hero HP**, regardless of Attack. Trap shields may block that hit.
+- Soldier-vs-soldier damage still uses the Attack stat.
+- Action-card direct hero damage (Ion Cannon, etc.) is unchanged **pending a design decision**; these effects can currently cause multi-HP losses.
+- `test-hero.mjs` is a regression test for this correction.
+- `test-new-sim.mjs` and `balance/corrected_hero_simulation.json` contain the new **180-match diagnostic** (30 per mode/deck size) with a 400-action observation cutoff. Unresolved games are **not draws**; the AI may be cycling or matches may simply need more actions. The mean of completed games excludes unresolved matches and is NOT an unbiased estimate of all game durations.
+- Previous v0.2 full-game simulation statistics are **obsolete** under this correction. Old balance files are retained only as historical artifacts and must not be cited as corrected results.
+- The default simulation helper still has a 30,000-action safety cap to prevent unbounded execution; the game itself has no sudden-death rule.
 
-## Prototype assumptions and known limitations
-- Only the 15 base soldier designs are used; multiple copies are allowed. 15 modifier designs (+1 through +5 to one stat) can attach to soldiers and stack.
-- Modifier cost is an **unvalidated placeholder**: ceil(bonus/2). Utility exceptions (redirect, bypass guard, extra attacks) are not yet implemented.
-- Hero max HP is number of surviving soldiers; start-of-turn hero HP and soldier defense restore. No independent +1 HP is used.
-- If the deck empties, flip pile becomes the next deck with the last spent card on top. Cards remain in hand across turns, with refill to 7.
-- There is no hand limit beyond the 7-card draw target; no auto-discard. Soldiers and modifiers leave the deck cycle while deployed/attached.
-- When a soldier dies, attached modifiers return to flip pile; this is provisional.
-- The AI drafts predictable decks and plays basic attacks and cards. It is meant for manual playtesting, **not balance conclusions**.
-- The Balance Lab also runs seeded AI-vs-AI batches of 20–500 full games with randomized decks. The Balance Lab can export 16,200 matchup records (15×15×2 initiation states×3 stats×6 bonuses×2 modes). For all mixed-stat combinations use the previously generated comprehensive CSV.
-- Multiplayer assumes a single room has exactly two players. The host must create a fresh room for a new game. There is no reconnect identity beyond Firebase anonymous auth persistence.
-
-## Files
-- `index.html`, `style.css`: interface
-- `engine.js`: deterministic drafting, card economy, combat and basic AI
-- `app.js`: UI, local game and multiplayer integration
-- `firebase.js`: optional Firestore adapter
-- `balance/`: prior balance ledger and comprehensive matchup data
-
-## Testing checklist
-- Quick-start, deploy a soldier, attack a soldier, end turn, verify recovery.
-- Play a modifier with selected payment cards and friendly target.
-- Draft a full deck in alternating order and verify no shuffle.
-- Empty the deck and verify last currency card returns first.
-- Repeat in both combat modes.
-- Test a host and guest in separate browsers before inviting testers.
+## v0.4 — Reinforcement recovery
+- **Hero hit counters immediately restore to maximum when a soldier is deployed.** No automatic hero recovery at turn start.
+- Soldier defense still restores at the beginning of its owner's turn. Losing a soldier still reduces maximum hero hit counters.
+- `test-recovery.mjs` validates both changes. `balance/corrected_hero_simulation.json` contains 180 new games (30 per configuration, 400-action diagnostic cap).
+- `balance/replayed_unresolved.json` replays all **59** previously unresolved v0.3 games with the new rule: 58 ended with a winner within 224 actions; 1 remained unresolved at 1,500 actions. The old scenarios are identified by their original seeds and match indices.
+- **Important:** An unresolved match can still occur due to AI or card-economy behavior; this rule greatly reduces stalls but does not guarantee a winner. The action cards' direct hero damage is still provisional.

@@ -1,0 +1,182 @@
+{
+  "catalogCount": 151,
+  "counts": {
+    "base": 15,
+    "rarity": 60,
+    "modifiers": 15,
+    "attachments": 15,
+    "actions": 24,
+    "traps": 12,
+    "environments": 10
+  },
+  "results": [
+    {
+      "matches": 1000,
+      "size": 20,
+      "mode": "single",
+      "wins": [
+        482,
+        515
+      ],
+      "draws": 3,
+      "errors": 0,
+      "averageRounds": 4.6,
+      "heroDamage": 18805,
+      "seed": 1234
+    },
+    {
+      "matches": 1000,
+      "size": 20,
+      "mode": "single",
+      "wins": [
+        478,
+        520
+      ],
+      "draws": 2,
+      "errors": 0,
+      "averageRounds": 4.5,
+      "heroDamage": 19469,
+      "seed": 98765
+    },
+    {
+      "matches": 1000,
+      "size": 30,
+      "mode": "single",
+      "wins": [
+        515,
+        485
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 6.3,
+      "heroDamage": 38235,
+      "seed": 1234
+    },
+    {
+      "matches": 1000,
+      "size": 30,
+      "mode": "single",
+      "wins": [
+        494,
+        506
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 6.7,
+      "heroDamage": 39453,
+      "seed": 98765
+    },
+    {
+      "matches": 1000,
+      "size": 40,
+      "mode": "single",
+      "wins": [
+        515,
+        484
+      ],
+      "draws": 1,
+      "errors": 0,
+      "averageRounds": 9.1,
+      "heroDamage": 67000,
+      "seed": 1234
+    },
+    {
+      "matches": 1000,
+      "size": 40,
+      "mode": "single",
+      "wins": [
+        491,
+        509
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 9,
+      "heroDamage": 68132,
+      "seed": 98765
+    },
+    {
+      "matches": 1000,
+      "size": 20,
+      "mode": "death",
+      "wins": [
+        490,
+        509
+      ],
+      "draws": 1,
+      "errors": 0,
+      "averageRounds": 4.3,
+      "heroDamage": 19634,
+      "seed": 1234
+    },
+    {
+      "matches": 1000,
+      "size": 20,
+      "mode": "death",
+      "wins": [
+        483,
+        517
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 4.2,
+      "heroDamage": 19576,
+      "seed": 98765
+    },
+    {
+      "matches": 1000,
+      "size": 30,
+      "mode": "death",
+      "wins": [
+        509,
+        490
+      ],
+      "draws": 1,
+      "errors": 0,
+      "averageRounds": 6.3,
+      "heroDamage": 39611,
+      "seed": 1234
+    },
+    {
+      "matches": 1000,
+      "size": 30,
+      "mode": "death",
+      "wins": [
+        481,
+        519
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 6.6,
+      "heroDamage": 41040,
+      "seed": 98765
+    },
+    {
+      "matches": 1000,
+      "size": 40,
+      "mode": "death",
+      "wins": [
+        513,
+        487
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 8.8,
+      "heroDamage": 69379,
+      "seed": 1234
+    },
+    {
+      "matches": 1000,
+      "size": 40,
+      "mode": "death",
+      "wins": [
+        491,
+        509
+      ],
+      "draws": 0,
+      "errors": 0,
+      "averageRounds": 9.1,
+      "heroDamage": 71152,
+      "seed": 98765
+    }
+  ]
+}

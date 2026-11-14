@@ -1,0 +1,1703 @@
+[
+  {
+    "mode": "single",
+    "size": 20,
+    "matches": 30,
+    "wins": [
+      8,
+      8
+    ],
+    "unresolved": 14,
+    "errors": 0,
+    "avgRoundsAll": 33.5,
+    "avgCompleted": 12.81,
+    "fastestCompleted": 6,
+    "longestCompleted": 23,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 1,
+        "round": 66,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 6,
+            "max": 6,
+            "board": 1,
+            "hand": 7,
+            "deck": 13,
+            "flip": 0,
+            "dead": 3,
+            "traps": 1
+          },
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 0,
+            "hand": 4,
+            "deck": 2,
+            "flip": 3,
+            "dead": 10,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 5,
+        "round": 53,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 4,
+            "board": 0,
+            "hand": 3,
+            "deck": 1,
+            "flip": 8,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 1,
+            "hand": 5,
+            "deck": 6,
+            "flip": 2,
+            "dead": 3,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 7,
+        "round": 54,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 0,
+            "hand": 3,
+            "deck": 2,
+            "flip": 3,
+            "dead": 10,
+            "traps": 1
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 1,
+            "hand": 2,
+            "deck": 6,
+            "flip": 5,
+            "dead": 6,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 9,
+        "round": 55,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 10,
+            "max": 10,
+            "board": 2,
+            "hand": 7,
+            "deck": 1,
+            "flip": 7,
+            "dead": 2,
+            "traps": 0
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 0,
+            "hand": 0,
+            "deck": 11,
+            "flip": 7,
+            "dead": 1,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 10,
+        "round": 59,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 1,
+            "hand": 7,
+            "deck": 7,
+            "flip": 0,
+            "dead": 4,
+            "traps": 0
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 2,
+            "flip": 2,
+            "dead": 10,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 11,
+        "round": 49,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 2,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 7,
+            "flip": 3,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 3,
+            "hand": 5,
+            "deck": 4,
+            "flip": 2,
+            "dead": 3,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 12,
+        "round": 52,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 0,
+            "hand": 0,
+            "deck": 11,
+            "flip": 6,
+            "dead": 3,
+            "traps": 1
+          },
+          {
+            "hero": 11,
+            "max": 11,
+            "board": 4,
+            "hand": 7,
+            "deck": 0,
+            "flip": 5,
+            "dead": 2,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 13,
+        "round": 56,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 2,
+            "max": 3,
+            "board": 0,
+            "hand": 2,
+            "deck": 6,
+            "flip": 5,
+            "dead": 4,
+            "traps": 1
+          },
+          {
+            "hero": 7,
+            "max": 7,
+            "board": 1,
+            "hand": 0,
+            "deck": 10,
+            "flip": 7,
+            "dead": 1,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 16,
+        "round": 63,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 1,
+            "hand": 2,
+            "deck": 7,
+            "flip": 5,
+            "dead": 8,
+            "traps": 0
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 1,
+            "flip": 2,
+            "dead": 10,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 18,
+        "round": 51,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 7,
+            "max": 7,
+            "board": 3,
+            "hand": 0,
+            "deck": 1,
+            "flip": 7,
+            "dead": 5,
+            "traps": 2
+          },
+          {
+            "hero": 1,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 2,
+            "flip": 3,
+            "dead": 10,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 20,
+        "round": 68,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 1,
+            "hand": 7,
+            "deck": 4,
+            "flip": 1,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 2,
+            "deck": 5,
+            "flip": 5,
+            "dead": 9,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 21,
+        "round": 62,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 1,
+            "hand": 1,
+            "deck": 2,
+            "flip": 11,
+            "dead": 4,
+            "traps": 1
+          },
+          {
+            "hero": 2,
+            "max": 2,
+            "board": 0,
+            "hand": 3,
+            "deck": 1,
+            "flip": 6,
+            "dead": 8,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 22,
+        "round": 49,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 4,
+            "board": 0,
+            "hand": 2,
+            "deck": 3,
+            "flip": 11,
+            "dead": 3,
+            "traps": 0
+          },
+          {
+            "hero": 11,
+            "max": 11,
+            "board": 3,
+            "hand": 7,
+            "deck": 7,
+            "flip": 1,
+            "dead": 1,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 23,
+        "round": 62,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 2,
+            "hand": 7,
+            "deck": 5,
+            "flip": 0,
+            "dead": 3,
+            "traps": 2
+          },
+          {
+            "hero": 4,
+            "max": 5,
+            "board": 0,
+            "hand": 7,
+            "deck": 4,
+            "flip": 11,
+            "dead": 4,
+            "traps": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "single",
+    "size": 30,
+    "matches": 30,
+    "wins": [
+      14,
+      10
+    ],
+    "unresolved": 6,
+    "errors": 0,
+    "avgRoundsAll": 29.5,
+    "avgCompleted": 24.67,
+    "fastestCompleted": 9,
+    "longestCompleted": 43,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 1,
+        "round": 51,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 15,
+            "max": 15,
+            "board": 5,
+            "hand": 7,
+            "deck": 6,
+            "flip": 3,
+            "dead": 7,
+            "traps": 2
+          },
+          {
+            "hero": 5,
+            "max": 6,
+            "board": 0,
+            "hand": 2,
+            "deck": 8,
+            "flip": 5,
+            "dead": 16,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 4,
+        "round": 42,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 11,
+            "max": 11,
+            "board": 4,
+            "hand": 2,
+            "deck": 13,
+            "flip": 20,
+            "dead": 6,
+            "traps": 2
+          },
+          {
+            "hero": 2,
+            "max": 6,
+            "board": 0,
+            "hand": 2,
+            "deck": 13,
+            "flip": 4,
+            "dead": 9,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 5,
+        "round": 47,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 15,
+            "max": 15,
+            "board": 7,
+            "hand": 7,
+            "deck": 5,
+            "flip": 7,
+            "dead": 1,
+            "traps": 2
+          },
+          {
+            "hero": 11,
+            "max": 14,
+            "board": 0,
+            "hand": 3,
+            "deck": 6,
+            "flip": 13,
+            "dead": 8,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 9,
+        "round": 58,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 6,
+            "max": 9,
+            "board": 0,
+            "hand": 7,
+            "deck": 9,
+            "flip": 13,
+            "dead": 4,
+            "traps": 0
+          },
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 3,
+            "hand": 5,
+            "deck": 18,
+            "flip": 7,
+            "dead": 2,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 19,
+        "round": 46,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 5,
+            "board": 0,
+            "hand": 3,
+            "deck": 3,
+            "flip": 13,
+            "dead": 11,
+            "traps": 0
+          },
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 4,
+            "hand": 7,
+            "deck": 5,
+            "flip": 9,
+            "dead": 1,
+            "traps": 2
+          }
+        ]
+      },
+      {
+        "match": 29,
+        "round": 48,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 4,
+            "hand": 7,
+            "deck": 0,
+            "flip": 13,
+            "dead": 3,
+            "traps": 1
+          },
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 0,
+            "hand": 2,
+            "deck": 7,
+            "flip": 11,
+            "dead": 6,
+            "traps": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "single",
+    "size": 40,
+    "matches": 30,
+    "wins": [
+      10,
+      13
+    ],
+    "unresolved": 7,
+    "errors": 0,
+    "avgRoundsAll": 37,
+    "avgCompleted": 32.78,
+    "fastestCompleted": 18,
+    "longestCompleted": 56,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 2,
+        "round": 50,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 15,
+            "max": 15,
+            "board": 7,
+            "hand": 2,
+            "deck": 15,
+            "flip": 7,
+            "dead": 7,
+            "traps": 2
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 0,
+            "hand": 7,
+            "deck": 0,
+            "flip": 23,
+            "dead": 12,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 3,
+        "round": 57,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 0,
+            "hand": 4,
+            "deck": 11,
+            "flip": 4,
+            "dead": 19,
+            "traps": 0
+          },
+          {
+            "hero": 17,
+            "max": 17,
+            "board": 2,
+            "hand": 7,
+            "deck": 12,
+            "flip": 8,
+            "dead": 8,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 9,
+        "round": 48,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 0,
+            "hand": 2,
+            "deck": 1,
+            "flip": 26,
+            "dead": 11,
+            "traps": 0
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 4,
+            "hand": 2,
+            "deck": 13,
+            "flip": 12,
+            "dead": 4,
+            "traps": 2
+          }
+        ]
+      },
+      {
+        "match": 14,
+        "round": 47,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 5,
+            "hand": 7,
+            "deck": 1,
+            "flip": 23,
+            "dead": 1,
+            "traps": 2
+          },
+          {
+            "hero": 7,
+            "max": 10,
+            "board": 0,
+            "hand": 4,
+            "deck": 5,
+            "flip": 19,
+            "dead": 11,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 18,
+        "round": 52,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 1,
+            "hand": 3,
+            "deck": 9,
+            "flip": 16,
+            "dead": 14,
+            "traps": 2
+          },
+          {
+            "hero": 1,
+            "max": 2,
+            "board": 0,
+            "hand": 3,
+            "deck": 22,
+            "flip": 8,
+            "dead": 14,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 20,
+        "round": 46,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 4,
+            "hand": 7,
+            "deck": 16,
+            "flip": 0,
+            "dead": 8,
+            "traps": 2
+          },
+          {
+            "hero": 5,
+            "max": 6,
+            "board": 0,
+            "hand": 3,
+            "deck": 0,
+            "flip": 19,
+            "dead": 18,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 23,
+        "round": 57,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 10,
+            "max": 10,
+            "board": 0,
+            "hand": 7,
+            "deck": 15,
+            "flip": 20,
+            "dead": 5,
+            "traps": 0
+          },
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 3,
+            "hand": 7,
+            "deck": 8,
+            "flip": 6,
+            "dead": 16,
+            "traps": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "death",
+    "size": 20,
+    "matches": 30,
+    "wins": [
+      7,
+      8
+    ],
+    "unresolved": 15,
+    "errors": 0,
+    "avgRoundsAll": 34.7,
+    "avgCompleted": 14.4,
+    "fastestCompleted": 6,
+    "longestCompleted": 28,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 1,
+        "round": 61,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 7,
+            "max": 7,
+            "board": 2,
+            "hand": 7,
+            "deck": 5,
+            "flip": 6,
+            "dead": 2,
+            "traps": 1
+          },
+          {
+            "hero": 6,
+            "max": 6,
+            "board": 0,
+            "hand": 4,
+            "deck": 2,
+            "flip": 2,
+            "dead": 9,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 2,
+        "round": 58,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 3,
+            "deck": 3,
+            "flip": 9,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 6,
+            "max": 6,
+            "board": 3,
+            "hand": 0,
+            "deck": 6,
+            "flip": 7,
+            "dead": 2,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 5,
+        "round": 53,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 4,
+            "board": 0,
+            "hand": 3,
+            "deck": 1,
+            "flip": 8,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 1,
+            "hand": 5,
+            "deck": 6,
+            "flip": 2,
+            "dead": 3,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 7,
+        "round": 55,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 0,
+            "hand": 2,
+            "deck": 2,
+            "flip": 5,
+            "dead": 10,
+            "traps": 0
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 1,
+            "hand": 5,
+            "deck": 6,
+            "flip": 2,
+            "dead": 6,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 9,
+        "round": 55,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 10,
+            "max": 10,
+            "board": 2,
+            "hand": 7,
+            "deck": 1,
+            "flip": 7,
+            "dead": 2,
+            "traps": 0
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 0,
+            "hand": 0,
+            "deck": 11,
+            "flip": 7,
+            "dead": 1,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 10,
+        "round": 49,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 2,
+            "hand": 7,
+            "deck": 6,
+            "flip": 0,
+            "dead": 3,
+            "traps": 0
+          },
+          {
+            "hero": 2,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 2,
+            "flip": 3,
+            "dead": 10,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 11,
+        "round": 49,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 2,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 7,
+            "flip": 3,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 3,
+            "hand": 5,
+            "deck": 4,
+            "flip": 2,
+            "dead": 3,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 12,
+        "round": 52,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 0,
+            "hand": 0,
+            "deck": 11,
+            "flip": 6,
+            "dead": 3,
+            "traps": 1
+          },
+          {
+            "hero": 11,
+            "max": 11,
+            "board": 4,
+            "hand": 7,
+            "deck": 0,
+            "flip": 5,
+            "dead": 2,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 13,
+        "round": 57,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 0,
+            "hand": 7,
+            "deck": 1,
+            "flip": 5,
+            "dead": 4,
+            "traps": 1
+          },
+          {
+            "hero": 7,
+            "max": 7,
+            "board": 1,
+            "hand": 0,
+            "deck": 10,
+            "flip": 7,
+            "dead": 1,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 16,
+        "round": 63,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 1,
+            "hand": 2,
+            "deck": 7,
+            "flip": 5,
+            "dead": 8,
+            "traps": 0
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 4,
+            "deck": 1,
+            "flip": 2,
+            "dead": 10,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 18,
+        "round": 51,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 7,
+            "max": 7,
+            "board": 3,
+            "hand": 0,
+            "deck": 1,
+            "flip": 7,
+            "dead": 5,
+            "traps": 2
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 7,
+            "deck": 2,
+            "flip": 0,
+            "dead": 10,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 20,
+        "round": 68,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 1,
+            "hand": 7,
+            "deck": 4,
+            "flip": 1,
+            "dead": 6,
+            "traps": 0
+          },
+          {
+            "hero": 4,
+            "max": 4,
+            "board": 0,
+            "hand": 2,
+            "deck": 5,
+            "flip": 5,
+            "dead": 9,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 21,
+        "round": 63,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 1,
+            "hand": 7,
+            "deck": 7,
+            "flip": 0,
+            "dead": 4,
+            "traps": 1
+          },
+          {
+            "hero": 2,
+            "max": 2,
+            "board": 0,
+            "hand": 3,
+            "deck": 1,
+            "flip": 6,
+            "dead": 8,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 22,
+        "round": 49,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 2,
+            "max": 4,
+            "board": 0,
+            "hand": 2,
+            "deck": 3,
+            "flip": 11,
+            "dead": 3,
+            "traps": 0
+          },
+          {
+            "hero": 11,
+            "max": 11,
+            "board": 3,
+            "hand": 7,
+            "deck": 7,
+            "flip": 1,
+            "dead": 1,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 24,
+        "round": 43,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 4,
+            "max": 5,
+            "board": 0,
+            "hand": 3,
+            "deck": 1,
+            "flip": 11,
+            "dead": 2,
+            "traps": 0
+          },
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 4,
+            "hand": 7,
+            "deck": 5,
+            "flip": 0,
+            "dead": 6,
+            "traps": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "death",
+    "size": 30,
+    "matches": 30,
+    "wins": [
+      12,
+      11
+    ],
+    "unresolved": 7,
+    "errors": 0,
+    "avgRoundsAll": 31.5,
+    "avgCompleted": 25.83,
+    "fastestCompleted": 9,
+    "longestCompleted": 42,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 1,
+        "round": 51,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 15,
+            "max": 15,
+            "board": 5,
+            "hand": 7,
+            "deck": 6,
+            "flip": 3,
+            "dead": 7,
+            "traps": 2
+          },
+          {
+            "hero": 5,
+            "max": 6,
+            "board": 0,
+            "hand": 2,
+            "deck": 8,
+            "flip": 5,
+            "dead": 16,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 4,
+        "round": 43,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 11,
+            "max": 11,
+            "board": 4,
+            "hand": 7,
+            "deck": 8,
+            "flip": 20,
+            "dead": 6,
+            "traps": 2
+          },
+          {
+            "hero": 2,
+            "max": 6,
+            "board": 0,
+            "hand": 1,
+            "deck": 7,
+            "flip": 11,
+            "dead": 9,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 5,
+        "round": 52,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 3,
+            "hand": 0,
+            "deck": 11,
+            "flip": 7,
+            "dead": 7,
+            "traps": 1
+          },
+          {
+            "hero": 8,
+            "max": 11,
+            "board": 0,
+            "hand": 3,
+            "deck": 6,
+            "flip": 13,
+            "dead": 11,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 6,
+        "round": 51,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 2,
+            "max": 5,
+            "board": 0,
+            "hand": 4,
+            "deck": 10,
+            "flip": 3,
+            "dead": 13,
+            "traps": 0
+          },
+          {
+            "hero": 14,
+            "max": 14,
+            "board": 3,
+            "hand": 7,
+            "deck": 11,
+            "flip": 4,
+            "dead": 4,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 9,
+        "round": 58,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 6,
+            "max": 9,
+            "board": 0,
+            "hand": 7,
+            "deck": 9,
+            "flip": 13,
+            "dead": 4,
+            "traps": 0
+          },
+          {
+            "hero": 8,
+            "max": 8,
+            "board": 3,
+            "hand": 5,
+            "deck": 18,
+            "flip": 7,
+            "dead": 2,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 19,
+        "round": 47,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 4,
+            "max": 5,
+            "board": 0,
+            "hand": 3,
+            "deck": 10,
+            "flip": 6,
+            "dead": 11,
+            "traps": 0
+          },
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 4,
+            "hand": 7,
+            "deck": 2,
+            "flip": 12,
+            "dead": 1,
+            "traps": 2
+          }
+        ]
+      },
+      {
+        "match": 29,
+        "round": 48,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 4,
+            "hand": 7,
+            "deck": 0,
+            "flip": 13,
+            "dead": 3,
+            "traps": 1
+          },
+          {
+            "hero": 5,
+            "max": 5,
+            "board": 0,
+            "hand": 2,
+            "deck": 7,
+            "flip": 11,
+            "dead": 6,
+            "traps": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "death",
+    "size": 40,
+    "matches": 30,
+    "wins": [
+      9,
+      11
+    ],
+    "unresolved": 10,
+    "errors": 0,
+    "avgRoundsAll": 36.8,
+    "avgCompleted": 30.5,
+    "fastestCompleted": 9,
+    "longestCompleted": 56,
+    "maxSteps": 401,
+    "stalled": [
+      {
+        "match": 2,
+        "round": 50,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 15,
+            "max": 15,
+            "board": 7,
+            "hand": 2,
+            "deck": 15,
+            "flip": 7,
+            "dead": 7,
+            "traps": 2
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 0,
+            "hand": 7,
+            "deck": 0,
+            "flip": 23,
+            "dead": 12,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 3,
+        "round": 57,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 3,
+            "board": 0,
+            "hand": 4,
+            "deck": 11,
+            "flip": 4,
+            "dead": 19,
+            "traps": 0
+          },
+          {
+            "hero": 17,
+            "max": 17,
+            "board": 2,
+            "hand": 7,
+            "deck": 12,
+            "flip": 8,
+            "dead": 8,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 5,
+        "round": 54,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 3,
+            "max": 5,
+            "board": 0,
+            "hand": 4,
+            "deck": 17,
+            "flip": 12,
+            "dead": 8,
+            "traps": 0
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 2,
+            "hand": 6,
+            "deck": 19,
+            "flip": 3,
+            "dead": 10,
+            "traps": 2
+          }
+        ]
+      },
+      {
+        "match": 9,
+        "round": 48,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 0,
+            "hand": 2,
+            "deck": 1,
+            "flip": 26,
+            "dead": 11,
+            "traps": 0
+          },
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 4,
+            "hand": 2,
+            "deck": 13,
+            "flip": 12,
+            "dead": 4,
+            "traps": 2
+          }
+        ]
+      },
+      {
+        "match": 14,
+        "round": 47,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 13,
+            "max": 13,
+            "board": 5,
+            "hand": 7,
+            "deck": 1,
+            "flip": 23,
+            "dead": 1,
+            "traps": 2
+          },
+          {
+            "hero": 7,
+            "max": 10,
+            "board": 0,
+            "hand": 4,
+            "deck": 5,
+            "flip": 19,
+            "dead": 11,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 16,
+        "round": 30,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 4,
+            "max": 15,
+            "board": 0,
+            "hand": 0,
+            "deck": 15,
+            "flip": 13,
+            "dead": 11,
+            "traps": 0
+          },
+          {
+            "hero": 22,
+            "max": 22,
+            "board": 12,
+            "hand": 3,
+            "deck": 2,
+            "flip": 15,
+            "dead": 5,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 18,
+        "round": 50,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 7,
+            "max": 7,
+            "board": 2,
+            "hand": 7,
+            "deck": 2,
+            "flip": 23,
+            "dead": 11,
+            "traps": 2
+          },
+          {
+            "hero": 2,
+            "max": 3,
+            "board": 0,
+            "hand": 3,
+            "deck": 6,
+            "flip": 18,
+            "dead": 13,
+            "traps": 0
+          }
+        ]
+      },
+      {
+        "match": 20,
+        "round": 49,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 6,
+            "max": 6,
+            "board": 1,
+            "hand": 0,
+            "deck": 4,
+            "flip": 23,
+            "dead": 10,
+            "traps": 0
+          },
+          {
+            "hero": 20,
+            "max": 20,
+            "board": 3,
+            "hand": 1,
+            "deck": 16,
+            "flip": 14,
+            "dead": 4,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 22,
+        "round": 56,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 6,
+            "max": 7,
+            "board": 0,
+            "hand": 3,
+            "deck": 25,
+            "flip": 7,
+            "dead": 8,
+            "traps": 0
+          },
+          {
+            "hero": 10,
+            "max": 10,
+            "board": 3,
+            "hand": 7,
+            "deck": 20,
+            "flip": 0,
+            "dead": 10,
+            "traps": 1
+          }
+        ]
+      },
+      {
+        "match": 23,
+        "round": 54,
+        "steps": 401,
+        "players": [
+          {
+            "hero": 9,
+            "max": 9,
+            "board": 2,
+            "hand": 7,
+            "deck": 6,
+            "flip": 14,
+            "dead": 6,
+            "traps": 2
+          },
+          {
+            "hero": 5,
+            "max": 6,
+            "board": 0,
+            "hand": 0,
+            "deck": 1,
+            "flip": 16,
+            "dead": 23,
+            "traps": 0
+          }
+        ]
+      }
+    ]
+  }
+]
