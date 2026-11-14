@@ -32,3 +32,10 @@ Open Multiplayer and supply your own Firebase web config; enable Anonymous Auth 
 - `test-recovery.mjs` validates both changes. `balance/corrected_hero_simulation.json` contains 180 new games (30 per configuration, 400-action diagnostic cap).
 - `balance/replayed_unresolved.json` replays all **59** previously unresolved v0.3 games with the new rule: 58 ended with a winner within 224 actions; 1 remained unresolved at 1,500 actions. The old scenarios are identified by their original seeds and match indices.
 - **Important:** An unresolved match can still occur due to AI or card-economy behavior; this rule greatly reduces stalls but does not guarantee a winner. The action cards' direct hero damage is still provisional.
+
+## v0.5.0 — tabletop UI refresh
+- New Hearthstone-inspired tabletop layout with opposing field, central turn controls, friendly field and hand.
+- Distinct framed cards with original CSS-generated mechanical-sphere placeholder artwork, cost gems, stat readouts and card-type art colors.
+- Visible build label `v0.5.0 · UI refresh` in the header, and versioned CSS/JS URLs to help bust browser caches after GitHub Pages deploys.
+- Corrected in-app rules description: hero HP is restored immediately on soldier deployment; direct soldier hits always deal one hero HP.
+- Gameplay engine, AI, and Firebase scaffolding carried forward from v0.4; this is a presentation-focused patch.
